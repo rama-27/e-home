@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Button, Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
 import toast from 'react-hot-toast';
 import { Link } from 'react-router-dom';
+import logo from '../../assets/headerlogo.png';
 import { useAuth } from '../../context/auth';
-import logo from '../../logo.svg';
 import './Header.css';
 const  Header=()=> {
     const[auth,setAuth]=useAuth();

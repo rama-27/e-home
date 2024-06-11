@@ -1,18 +1,15 @@
 import React from 'react';
 import './App.css';
-import Footer from './components/Layout/Footer';
-import Header from './components/Layout/Header';
+import Signup from './Pages/Signup';
 
 function App() {
   return (
     <div>
-      <header id="header">
-        <Header/>
-      </header>
-      <footer id="footer">
-        <Footer/>
-      </footer>
+      
+      <Signup id="signup">
 
+      </Signup>
+      
     </div>
   );
 }
