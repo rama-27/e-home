@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+#footer{
+  background:#f64b4b;
+  padding:50px 0;
+  color:#fff;
+  position: absolute;
+  bottom:0;
+  width:100%;
+  height:120px;
+}
+#footer .copyright{
+  margin:0 0 15px;
+
+}
+.socials{
+  justify-content: center;
+  text-align: center;
+}
+.listofsocials li{
+  display:inline-block;
+  padding-left:20px ;
+  
+}
+.copyright p{
+  justify-content: center;
+  text-align: center;
+}
+
+#footer .socials a:hover{
+cursor:pointer;
+
+
+}
+.block{
+  padding: 70px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
